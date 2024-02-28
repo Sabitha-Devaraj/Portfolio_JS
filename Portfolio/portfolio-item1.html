@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--To make your website responsive - small and big size devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabitha Devaraj Portfolio</title>
+
+    <!--link to custom css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--normalize css from Nicolas github-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <!--Link to font-awesome from cdnjs.com-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!--Link to google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro intro--portfolio-item" id="home">
+        <h1 class="section__title section__title--intro">
+            <strong>Tesla, Inc.</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro section__subtitle--intro--portfolio-item">
+            BI Developer (June, 2015 - January, 2016)
+        </p>
+
+        <img src="img/tesla.jpg" alt="a picture of Tesla, Inc." class="intro__img">
+    </section>
+
+    <!--work at Tesla-->
+    <section class="my-services " id="services">
+        <h2 class="section__title section__title--services">
+            What I did
+        </h2>
+        <h3 class="section__title section__title--services">
+            Solution Environment: SSIS 2012, SQL Server 2012, Tableau, JIRA
+        </h3>
+        <p class="task">
+            Worked on adhoc service request (tickets raised in JIRA), created data connection for the query using
+            tableau desktop and published connection to server
+        </p>
+        <p class="task">
+            Build Avaya and appointment system data mart.
+            Implemented source key methodology (differentiate data source in the data mart)
+        </p>
+        <p class="task">
+            Developed adhoc SSIS packages, deployed to server and scheduled the job using SQL Agent
+        </p>
+        <p class="task">
+            Created mapping in SSIS to process client file and place the target file to FTP server
+        </p>
+        <p class="task">
+            Moved all the packages and jobs from one production server to another and made up and running
+        </p>
+        <p class="task">
+            Resolved run time issues in ETL and dashboards - production support
+        </p>
+        <p class="task">
+            Created filters to validate reports against client requirements
+        </p>
+        <p class="task">
+            Published and scheduled dashboards to run and send email to users in distribution list
+        </p>
+
+    </section>
+
+
+    <!--Footer-->
+    <footer class="my-contact">
+        <a href="mailto:vdsabitha@gmail.com" class="social-list__link">vdsabitha@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/sabitha-devaraj-71131657/" class="social-list__link"
+                    target="_blank">
+                    <!-- LinkedIn</i> -->
+                    <img src="img/linkedin.png" alt="linkedin logo" class="social-list__icon">
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/" class="social-list__link" target="_blank">
+                    <!-- GitHub</i> -->
+                    <img src="img/github.png" alt="github logo" class="social-list__icon">
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

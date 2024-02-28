@@ -1,0 +1,33 @@
+Scrimba
+https://scrimba.com/learn/portfolio
+
+<link> tag - including normalize.css
+1. HTML elements - needs to look same - independent of the browser
+2. Each browsers apply styles even before your first style and render html elements in different way - inconsistency problem.
+3. This conflict is addressed by Normalize.css or CSS Reset approach
+4. Normalize.css - gentle solution
+Normalize.css is an open source, continuously updated project on Github, created by Nicolas Gallagher.
+    1. small css file that provides cross browser consistency in default styling of HTML elements.
+    2. W3C standard - all the browsers will follow - if a browser doesnt follow - normalize will fix the faulty browser.
+    3. Not all the time we can fix the faulty browser according to the standard- IE/ Edge will not comply with w3c - normalize will fix all other browsers to follow IE/ Edge.
+    4. eg: Chrome Firefox and Safari will render h1 tag which is inside the <article>, <section>, <nav> and <aside> with small font size and different margin from the independent h1 tag.
+    5. IE/ Edge are in the minority when applying these styles. You think normalize can fix the IE/ Edge, but these browsers doesnt have "any" selector to apply the change. 
+    6. SO normalize will define the IE/ Edge styles to be applied to other browsers.
+        font-size: 2em; margin: 0.67em for h1 tag inside the semantic elements.
+5. CSS Reset - aggresive solution, Eric Meyer 
+    1. We dont need the browsers default style at all. we will define the styles in the project according to our needs - CSS Reset will reset all of the styles that come with browser's user agent.
+        all HTML tags to have no padding, no margin, no border, same font-size and same alignments.
+    2. big chain of selectors, unnecessary overrides and unreadable when debugging.
+
+class attribute for styling
+id atrribute for anchoring
+
+Digital Ocean Droplet
+    1. Droplet is a virtual server for hosting our website and web-apps. 
+    2. Create an account in the digital ocean and then create a droplet. You can put your files on to a droplet with an FTP.
+    3. You will need FTP software - Filezilla, Cyberduck, Fetch(Mac only)
+    4. Scrimba - uses Filezilla.
+        Filezilla - Open SiteManager and create a new site (DO - portfolio) and provide details for:
+            Protocol - SFTP - SSH File Transfer Protocol
+            Host - (your ip address - got while creating a droplet)
+            Port - 22 (for SFTP) or 80(for FTP)

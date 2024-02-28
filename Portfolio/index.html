@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--To make your website responsive - small and big size devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabitha Devaraj Portfolio</title>
+
+    <!--link to custom css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--normalize css from Nicolas github-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <!--Link to font-awesome from cdnjs.com-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!--Link to google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Sabitha Devaraj</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            Front-End Developer
+        </p>
+        <img src="img/sabitha.jpg" alt="a picture of Sabitha Devaraj" class="intro__img">
+    </section>
+
+    <!--My services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">
+            My Services
+        </h2>
+        <div class="services">
+            <!--service-->
+            <div class="service">
+                <h3>BI Developer</h3>
+                <p>Worked as BI Developer with leading US Clients including Tesla and developed ETL and SQL solutions
+                    using Microsoft
+                    tools. Certified Microsoft Professional in Implementing a Data Warehouse with Microsoft SQL Server
+                    2012
+                </p>
+            </div>
+            <!--service-->
+            <div class="service">
+                <h3>Java Developer</h3>
+                <p>Worked as a full stack web developer for RealD - movies and theaters application
+                    using HTML, CSS, JavaScript and Java. Certified Web Component Development using Java Technologies,
+                    NIIT, India. </p>
+            </div>
+            <!--service-->
+            <div class="service">
+                <h3>FrontEnd Developer</h3>
+                <p>
+                    With a passion for crafting responsive and user-friendly web
+                    applications, I am looking to resume my career as a Front-End Developer. Proficient in HTML, CSS,
+                    and JavaScript with self taught experience in modern front-end
+                    frameworks like React. Completed React course from Scrimba.
+                </p>
+            </div>
+        </div>
+        <!--services-->
+        <a href="#work" class="btn">see my work</a>
+    </section>
+
+    <!--about-me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">FrontEnd developer based in London</p>
+        <div class="about-me__body">
+            <p>Dedicated and motivated person, currently looking to resume my career with a passion for crafting
+                responsive and user-friendly web
+                applications.
+            </p>
+            <p>Proficient in HTML5, CSS3, and JavaScript ES6 with self taught experience in modern
+                front-end
+                frameworks like React, Bootstrap. Familiarity with version control systems: Git, GitHub. Strong
+                problem-solving
+                skills and a quick learner eager to contribute to dynamic development teams.
+            </p>
+
+            <p>Holder of a Master's Degree
+                in Computer Science Engineering and Bachelor's Degree in Information Technology.
+            </p>
+            <p>
+                Worked with Systech Solutions Private Limited, India for 3 years, serving leading US clients including
+                Tesla, Kre8Media
+                and RealD. "Career Gap: 2016 - 2024: Engaged in personal development, caregiving responsibilities, and
+                acquiring new skills."
+            </p>
+            <p>Enhanced competencies
+                through active project development, with portfolio available on GitHub showcasing practical
+                applications.
+            </p>
+        </div>
+        <!-- <img src="img/sabitha.jpg" alt="my picture to be included" class="about-me__img"> -->
+    </section>
+
+    <!--my work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work and Learning</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+        <div class="portfolio">
+            <!--portfolio item 01-->
+            <a href="portfolio-item1.html" class="portfolio__item">
+                <img src="img/tesla.jpg" alt="tesla logo" class="portfolio__img">
+            </a>
+            <!--portfolio item 02-->
+            <a href="portfolio-item2.html" class="portfolio__item">
+                <img src="img/kre8media.jpg" alt="kre8media logo" class="portfolio__img">
+            </a>
+            <!--portfolio item 03-->
+            <a href="portfolio-item3.html" class="portfolio__item">
+                <img src="img/realD.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="https://appmemegenerator.netlify.app" target="_blank" class="portfolio__item">
+                <img src="img/memegenerator.png" alt="memegenerator logo" class="portfolio__img">
+            </a>
+            <a href="https://apptodonotes.netlify.app/" target="_blank" class="portfolio__item">
+                <img src="img/notes.png" alt="notesapp logo" class="portfolio__img">
+            </a>
+            <a href="https://apptenziesgame.netlify.app/" target="_blank" class="portfolio__item">
+                <img src="img/tenzies.png" alt="tenziesapp logo" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer class="my-contact">
+        <a href="mailto:vdsabitha@gmail.com" class="social-list__link">vdsabitha@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/sabitha-devaraj-71131657/" class="social-list__link"
+                    target="_blank">
+                    <!-- LinkedIn</i> -->
+                    <img src="img/linkedin.png" alt="linkedin logo" class="social-list__icon">
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/" class="social-list__link" target="_blank">
+                    <!-- GitHub</i> -->
+                    <img src="img/github.png" alt="github logo" class="social-list__icon">
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

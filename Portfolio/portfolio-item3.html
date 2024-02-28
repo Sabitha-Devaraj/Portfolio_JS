@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--To make your website responsive - small and big size devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabitha Devaraj Portfolio</title>
+
+    <!--link to custom css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--normalize css from Nicolas github-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <!--Link to font-awesome from cdnjs.com-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+
+    <!--Link to google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro intro--portfolio-item" id="home">
+        <h1 class="section__title section__title--intro">
+            <strong>RealD Inc.</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro section__subtitle--intro--portfolio-item">
+            Full Stack Web Developer (Dec, 2012 - Jan, 2015)
+        </p>
+        <img src="img/realD.jpg" alt="a picture of Tesla, Inc." class="intro__img">
+    </section>
+
+    <!--work at RealD-->
+    <section class="my-services " id="services">
+        <h2 class="section__title section__title--services">
+            What I did
+        </h2>
+        <h3 class="section__title section__title--services">
+            Solution Environment: Eclipse, JSP, Servlets, JavaScript, SQL Server 2008, SSIS, Python, WebFocus V8 -
+            Developer Studio, Info Assist
+        </h3>
+        <p class="task">
+            Developed web applications for RealD using MVC architecture
+        </p>
+        <p class="task">
+            Implemented wildcard search for theatre name with options such as “equals, starts with, ends with,
+            contains” and provided an option to export the list to excel
+        </p>
+        <p class="task">
+            Performed on-the-fly validation using prompts and form validations such as email address format, textbox,
+            dropdown validation
+        </p>
+        <p class="task">
+            Created bar chart and pie chart using JQuery on the parent display screen based on the count of its
+            child records
+        </p>
+        <p class="task">
+            Developed SSIS packages to load dimension tables with SCD and fact tables with incremental concept.
+            Also performed testing to ensure data accuracy.
+        </p>
+
+        <p class="task">
+            Documented the process of migrating application to production and modifying the configurations for the
+            application to run in production
+        </p>
+
+        <p class="task">
+            Integrated SSIS packages from different projects and moved them from development to production
+            using variables for connections.
+        </p>
+
+        <p class="task">
+            Fetched location information about Reald theatres in KML file from Google earth application.
+        </p>
+
+        <p class="task">
+            Used python scripts to convert KML file to text files and subsequently loaded to SQL server.
+        </p>
+        <p class="task">
+            Installed and configured the WebFocus 8.0.03 environment
+        </p>
+        <p class="task">
+            Created web application using Jsp/Javascript, Java/J2EE and implemented LDAP (Light Weight Directory Access
+            Protocol) security for the application
+        </p>
+        <p class="task">
+            Leveraged Single Sign-On feature between WebFocus Portal and the web application
+        </p>
+        <p class="task">
+            Developed reports and referenced in HTML composer.
+            Developed and customized BI portal with dashboards. Integrated customized WebFocus portal with web
+            application
+        </p>
+        <p class="task">
+            Demonstrated WebFocus Info Assist tool with sample data
+        </p>
+
+
+
+
+
+
+
+    </section>
+
+
+    <!--Footer-->
+    <footer class="my-contact">
+        <a href="mailto:vdsabitha@gmail.com" class="social-list__link">vdsabitha@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/sabitha-devaraj-71131657/" class="social-list__link"
+                    target="_blank">
+                    <!-- LinkedIn</i> -->
+                    <img src="img/linkedin.png" alt="linkedin logo" class="social-list__icon">
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/" class="social-list__link" target="_blank">
+                    <!-- GitHub</i> -->
+                    <img src="img/github.png" alt="github logo" class="social-list__icon">
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
